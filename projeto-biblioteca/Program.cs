@@ -86,5 +86,25 @@ namespace projeto_biblioteca
             Livro novoLivro = new Livro(isbn, titulo, autor, editora);
             acervo.adicionar(novoLivro);
         }
+
+        static void adicionarExemplar()
+        {
+            Utils.Titulo("ADICIONAR EXEMPLAR");
+            Console.Write("Digite o ISBN do Livro: ");
+            int isbn = Utils.lerInt(Console.ReadLine(), 0, "\n ISBN inválido. Tente novamente:");
+            Livro livro = acervo.Acervo.Find(l => l.Isbn == isbn);
+            if (livro != null)
+            {
+                Console.WriteLine($" Livro: {livro.Titulo}");
+                Console.Write("Digite o tombo do exemplar");
+                int tombo = Utils.lerInt(Console.ReadLine(), 0, "\n Tombo inválido. Tente novamente:");
+                Exemplar exemplar = new Exemplar(tombo);
+                livro.adicionarExemplar(exemplar);
+
+            }
+            else
+                Utils.MensagemErro("Livro não encontrado");
+            
+        }
     }
 }

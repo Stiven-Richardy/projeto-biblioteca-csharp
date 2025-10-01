@@ -32,7 +32,16 @@ namespace projeto_biblioteca
 
         public void adicionarExemplar(Exemplar exemplar)
         {
-
+            Exemplar pesquisaExemplar = exemplares.Find(e => e.Tombo == exemplar.Tombo);
+            if (pesquisaExemplar == null) 
+            {
+                exemplares.Add(exemplar);
+                Utils.MensagemSucesso(" Exemplar adicionado com sucesso! ");
+            }
+            else
+            {
+                Utils.MensagemErro($"Exemplar já existe! Tombo nº{exemplar.Tombo}");
+            }
         }
 
         public int qtdeExemplares()
