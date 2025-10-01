@@ -14,15 +14,15 @@ namespace projeto_biblioteca
         public DateTime DtEmprestimo { get => dtEmprestimo; set => dtEmprestimo = value; }
         public DateTime DtDevolucao { get => dtDevolucao; set => dtDevolucao = value; }
 
+        public Emprestimo(DateTime dtEmprestimo)
+        {
+            DtEmprestimo = dtEmprestimo;
+        }
+
         public Emprestimo(DateTime dtEmprestimo, DateTime dtDevolucao)
         {
             DtEmprestimo = dtEmprestimo;
             DtDevolucao = dtDevolucao;
-        }
-
-        public Emprestimo(DateTime dtEmprestimo) 
-        {
-            DtEmprestimo = dtEmprestimo;
         }
     }
 }
