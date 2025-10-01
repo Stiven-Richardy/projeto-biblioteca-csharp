@@ -17,10 +17,13 @@
 | **. Informando, além dos dados acima, os detalhes dos seus exemplares e respectivos empréstimos
 */
 
+using static System.Net.Mime.MediaTypeNames;
+
 namespace projeto_biblioteca
 {
     internal class Program
     {
+        public static Livros acervo = new Livros();
         static void Main(string[] args)
         {
             int seletor = -1;
@@ -29,11 +32,12 @@ namespace projeto_biblioteca
                 Console.Clear();
                 Utils.Titulo("PAINEL PRINCIPAL");
                 Console.WriteLine(" 0 - Sair");
-                Console.WriteLine(" 1 - Adicionar contato");
-                Console.WriteLine(" 2 - Pesquisar contato");
-                Console.WriteLine(" 3 - Alterar contato");
-                Console.WriteLine(" 4 - Remover contato");
-                Console.WriteLine(" 5 - Listar contatos");
+                Console.WriteLine(" 1 - Adicionar livro");
+                Console.WriteLine(" 2 - Pesquisar livro (Sintético)");
+                Console.WriteLine(" 3 - Pesquisar livro (Analítico)");
+                Console.WriteLine(" 4 - Adicionar exemplar");
+                Console.WriteLine(" 5 - Registrar empréstimo");
+                Console.WriteLine(" 6 - Registrar devolução");
                 Console.WriteLine(new string('-', 44));
                 Console.Write(" Escolha uma opção: ");
                 seletor = Utils.lerInt(Console.ReadLine(), 0, " Entrada inválida!\n Informe outro número: ");
@@ -44,7 +48,7 @@ namespace projeto_biblioteca
                         Console.WriteLine(" Programa finalizado!");
                         break;
                     case 1:
-                         // adicionarLivro();
+                         adicionarLivro();
                         break;
                     case 2:
                         // pesquisarLivroSintetico();
@@ -66,6 +70,21 @@ namespace projeto_biblioteca
                         break;
                 }
             }
+        }
+
+        static void adicionarLivro()
+        {
+            Utils.Titulo("ADICIONAR LIVRO");
+            Console.Write("Digite o ISBN do livro: ");
+            int isbn = Utils.lerInt(Console.ReadLine(), 0, "\n ISBN inválido. Tente novamente:");
+            Console.Write("Digite o Título do livro: ");
+            string titulo = Console.ReadLine();
+            Console.Write("Digite o nome do Autor do livro: ");
+            string autor = Console.ReadLine();
+            Console.Write("Digite o nome da Editora do livro: ");
+            string editora = Console.ReadLine();
+            Livro novoLivro = new Livro(isbn, titulo, autor, editora);
+            acervo.adicionar(novoLivro);
         }
     }
 }
