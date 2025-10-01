@@ -54,7 +54,7 @@ namespace projeto_biblioteca
                         pesquisarLivroSintetico();
                         break;
                     case 3:
-                        // pesquisarLivroAnalitico();
+                        pesquisarLivroAnalitico();
                         break;
                     case 4:
                         // adicionarExemplar();
@@ -104,7 +104,41 @@ namespace projeto_biblioteca
                     $"\n Total de exemplares: {livroEncontrado.qtdeExemplares()}" +
                     $"\n Total de disponíveis: {livroEncontrado.qtdeDisponiveis()}" +
                     $"\n Total de empréstimos: {livroEncontrado.qtdeEmprestimos()}" +
+                    $"\n Percentual de disponibilidade: {livroEncontrado.percDisponibilidade()}%" +
+                    $"\n Exemplares: ");
+                Utils.MensagemSucesso("Livro encontrado.");
+            }
+            else
+                Utils.MensagemErro("Livro não encontrado.");
+        }
+
+        static void pesquisarLivroAnalitico()
+        {
+            Utils.Titulo("PESQUISAR LIVRO (SINTÉTICO)");
+            Console.Write(" Digite o ISBN do livro: ");
+            int isbn = Utils.lerInt(Console.ReadLine(), 0, "\n ISBN inválido. Tente novamente:");
+            Livro livroPesquisado = new Livro(isbn);
+            Livro livroEncontrado = acervo.pesquisar(livroPesquisado);
+            if (livroEncontrado != null)
+            {
+                Utils.Titulo("PESQUISAR LIVRO (SINTÉTICO)");
+                Console.WriteLine($" ISBN: {livroEncontrado.Isbn}" +
+                    $"\n Título: {livroEncontrado.Titulo}" +
+                    $"\n Autor: {livroEncontrado.Autor}" +
+                    $"\n Editora: {livroEncontrado.Editora}" +
+                    $"\n Total de exemplares: {livroEncontrado.qtdeExemplares()}" +
+                    $"\n Total de disponíveis: {livroEncontrado.qtdeDisponiveis()}" +
+                    $"\n Total de empréstimos: {livroEncontrado.qtdeEmprestimos()}" +
                     $"\n Percentual de disponibilidade: {livroEncontrado.percDisponibilidade()}%");
+                foreach (Exemplar e in livroEncontrado.Exemplares)
+                {
+                    Console.WriteLine($" - Tombo: {e.Tombo}" +
+                        $" - Datas dos empréstimos: ");
+                    foreach (Emprestimo em in e.Emprestimos)
+                    {
+                        Console.WriteLine($"{em.DtEmprestimo}");
+                    }
+                }
                 Utils.MensagemSucesso("Livro encontrado.");
             }
             else
