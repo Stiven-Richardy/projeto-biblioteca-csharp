@@ -14,16 +14,13 @@ namespace projeto_biblioteca
 
         public void adicionar(Livro livro)
         {
-            bool livroExiste = acervo.Any(livroExistente => livroExistente.Isbn.Equals(livro.Isbn));
-            if (!livroExiste)
+            if ((pesquisar(livro) == null))
             {
                 acervo.Add(livro);
                 Utils.MensagemSucesso("Livro adicionado com sucesso.");
             }
             else
-            {
                 Utils.MensagemErro("Não foi possível adicionar um livro.");
-            }
         }
 
         public Livro pesquisar(Livro livro)
