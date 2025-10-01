@@ -28,7 +28,7 @@ namespace projeto_biblioteca
 
         public Livro pesquisar(Livro livro)
         {
-            return null;
+            return acervo.Find(livroPesquisado => livroPesquisado.Isbn.Equals(livro.Isbn));
         }
     }
 }

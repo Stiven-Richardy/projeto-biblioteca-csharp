@@ -51,7 +51,7 @@ namespace projeto_biblioteca
                          adicionarLivro();
                         break;
                     case 2:
-                        // pesquisarLivroSintetico();
+                        pesquisarLivroSintetico();
                         break;
                     case 3:
                         // pesquisarLivroAnalitico();
@@ -75,16 +75,42 @@ namespace projeto_biblioteca
         static void adicionarLivro()
         {
             Utils.Titulo("ADICIONAR LIVRO");
-            Console.Write("Digite o ISBN do livro: ");
+            Console.Write(" Digite o ISBN do livro: ");
             int isbn = Utils.lerInt(Console.ReadLine(), 0, "\n ISBN inválido. Tente novamente:");
-            Console.Write("Digite o Título do livro: ");
+            Console.Write(" Digite o Título do livro: ");
             string titulo = Console.ReadLine();
-            Console.Write("Digite o nome do Autor do livro: ");
+            Console.Write(" Digite o nome do Autor do livro: ");
             string autor = Console.ReadLine();
-            Console.Write("Digite o nome da Editora do livro: ");
+            Console.Write(" Digite o nome da Editora do livro: ");
             string editora = Console.ReadLine();
             Livro novoLivro = new Livro(isbn, titulo, autor, editora);
             acervo.adicionar(novoLivro);
+        }
+
+        static void pesquisarLivroSintetico()
+        {
+            Utils.Titulo("PESQUISAR LIVRO (SINTÉTICO)");
+            Console.Write("Digite o ISBN do livro: ");
+            int isbn = Utils.lerInt(Console.ReadLine(), 0, "\n ISBN inválido. Tente novamente:");
+            Livro livroPesquisado = new Livro(isbn);
+            Livro livroEncontrado = acervo.pesquisar(livroPesquisado);
+            if (livroEncontrado != null)
+            {
+                Utils.Titulo("PESQUISAR LIVRO (SINTÉTICO)");
+                Console.WriteLine($" ISBN: {livroEncontrado.Isbn}" +
+                    $"\n Título: {livroEncontrado.Titulo}" +
+                    $"\n Autor: {livroEncontrado.Autor}" +
+                    $"\n Editora: {livroEncontrado.Editora}" +
+                    $"\n Total de exemplares: {livroEncontrado.qtdeExemplares()}" +
+                    $"\n Total de disponíveis: {livroEncontrado.qtdeDisponiveis()}" +
+                    $"\n Total de empréstimos: {livroEncontrado.qtdeEmprestimos()}" +
+                    $"\n Percentual de disponibilidade: {livroEncontrado.percDisponibilidade()}");
+                Utils.MensagemSucesso("Livro encontrado.");
+            }
+            else
+            {
+                Utils.MensagemErro("Livro não encontrado.");
+            }
         }
     }
 }

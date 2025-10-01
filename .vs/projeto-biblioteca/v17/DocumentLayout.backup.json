@@ -44,7 +44,7 @@
               "RelativeDocumentMoniker": "projeto-biblioteca\\Program.cs",
               "ToolTip": "C:\\Users\\aluno\\Downloads\\projeto-biblioteca-csharp\\projeto-biblioteca\\Program.cs",
               "RelativeToolTip": "projeto-biblioteca\\Program.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAgwFQAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAUwGMAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-30T23:33:08.332Z",
               "IsPinned": true,
@@ -58,7 +58,7 @@
               "RelativeDocumentMoniker": "projeto-biblioteca\\Livros.cs",
               "ToolTip": "C:\\Users\\aluno\\Downloads\\projeto-biblioteca-csharp\\projeto-biblioteca\\Livros.cs",
               "RelativeToolTip": "projeto-biblioteca\\Livros.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-30T23:35:59.933Z",
               "EditorCaption": ""
@@ -73,8 +73,7 @@
               "RelativeToolTip": "projeto-biblioteca\\Emprestimo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T23:44:51.842Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-30T23:44:51.842Z"
             },
             {
               "$type": "Document",
@@ -84,7 +83,7 @@
               "RelativeDocumentMoniker": "projeto-biblioteca\\Livro.cs",
               "ToolTip": "C:\\Users\\aluno\\Downloads\\projeto-biblioteca-csharp\\projeto-biblioteca\\Livro.cs",
               "RelativeToolTip": "projeto-biblioteca\\Livro.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAA1wCIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwCIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-30T23:37:15.185Z",
               "EditorCaption": ""
@@ -99,8 +98,7 @@
               "RelativeToolTip": "projeto-biblioteca\\Utils.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T23:39:38.212Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-30T23:39:38.212Z"
             },
             {
               "$type": "Document",
@@ -112,8 +110,7 @@
               "RelativeToolTip": "projeto-biblioteca\\Exemplar.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T23:37:24.829Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-30T23:37:24.829Z"
             }
           ]
         }
