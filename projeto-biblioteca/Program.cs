@@ -51,13 +51,13 @@ namespace projeto_biblioteca
                          adicionarLivro();
                         break;
                     case 2:
-                        // pesquisarLivroSintetico();
+                        pesquisarLivroSintetico();
                         break;
                     case 3:
-                        // pesquisarLivroAnalitico();
+                        pesquisarLivroAnalitico();
                         break;
                     case 4:
-                        // adicionarExemplar();
+                        adicionarExemplar();
                         break;
                     case 5:
                         // registrarEmprestimo();
@@ -86,5 +86,80 @@ namespace projeto_biblioteca
             Livro novoLivro = new Livro(isbn, titulo, autor, editora);
             acervo.adicionar(novoLivro);
         }
+
+        static void pesquisarLivroSintetico()
+        {
+            Utils.Titulo("PESQUISAR LIVRO (Sintetico)");
+            Console.Write("Digite o ISBN do livro: ");
+            int isbn = Utils.lerInt(Console.ReadLine(), 0, "\n ISBN inválido. Tente novamente:");
+            Livro livroPesquisado = acervo.pesquisar(new Livro(isbn));
+            if (livroPesquisado != null)
+            {
+                Console.WriteLine($"DADOS DO LIVRO: \n" +
+                    $"Titulo: {livroPesquisado.Titulo}" + "\n" +
+                    $"Autor: {livroPesquisado.Autor}" + "\n" +
+                    $"Editora: {livroPesquisado.Editora}" + "\n" +
+                    $"Exemplares: {livroPesquisado.qtdeExemplares()}" + "\n" +
+                    $"Exemplares disponíveis: {livroPesquisado.qtdeDisponiveis()}" + "\n" +
+                    $"Emprestimos: {livroPesquisado.qtdeEmprestimos()}" + "\n" +
+                    $"Percentual de disponibilidade: {livroPesquisado.percDisponibilidade()}");
+            }
+            else
+                Utils.MensagemErro("Livro não encontrado.");
+        }
+
+        static void pesquisarLivroAnalitico()
+        {
+            Utils.Titulo("PESQUISAR LIVRO (Sintetico)");
+            Console.Write("Digite o ISBN do livro: ");
+            int isbn = Utils.lerInt(Console.ReadLine(), 0, "\n ISBN inválido. Tente novamente:");
+            Livro livroPesquisado = acervo.pesquisar(new Livro(isbn));
+            if (livroPesquisado != null)
+            {
+                Console.WriteLine($"DADOS DO LIVRO: \n" +
+                    $"Titulo: {livroPesquisado.Titulo}" + "\n" +
+                    $"Autor: {livroPesquisado.Autor}" + "\n" +
+                    $"Editora: {livroPesquisado.Editora}" + "\n" +
+                    $"Exemplares: {livroPesquisado.qtdeExemplares()}" + "\n" +
+                    $"Exemplares disponíveis: {livroPesquisado.qtdeDisponiveis()}" + "\n" +
+                    $"Emprestimos: {livroPesquisado.qtdeEmprestimos()}" + "\n" +
+                    $"Percentual de disponibilidade: {livroPesquisado.percDisponibilidade()}");
+                Console.WriteLine("EXEMPLARES: ");
+                foreach (Exemplar e in livroPesquisado.Exemplares)
+                {
+                    Console.WriteLine($"Tombo: {e.Tombo} \nDados de empréstimos:");
+                    foreach(Emprestimo emp in e.Emprestimos)
+                    {
+                        if (emp.DtEmprestimo != null) 
+                        {
+                            Console.WriteLine($"Emprestado em {emp.DtEmprestimo}");
+                        }
+                        if (emp.DtDevolucao != null)
+                        {
+                            Console.WriteLine($"Devolvido em {emp.DtDevolucao}");
+                        }
+                    }
+                }
+            }
+            else
+                Utils.MensagemErro("Livro não encontrado.");
+        }
+        static void adicionarExemplar()
+        {
+            Utils.Titulo("ADICIONAR EXEMPLAR");
+            Console.Write("Digite o ISBN do livro: ");
+            int isbn = Utils.lerInt(Console.ReadLine(), 0, "\n ISBN inválido. Tente novamente:");
+            Livro livroPesquisado = acervo.pesquisar(new Livro(isbn));
+            if (livroPesquisado != null)
+            {
+                Console.Write("Digite o tombo do exemplar: ");
+                int tombo = Utils.lerInt(Console.ReadLine(), 0, "\n Tombo inválido. Tente novamente:");
+                Exemplar exemplar = new Exemplar(tombo);
+                livroPesquisado.adicionarExemplar(exemplar);
+            }
+            else
+                Utils.MensagemErro("Livro não encontrado.");
+        }
     }
+    
 }
