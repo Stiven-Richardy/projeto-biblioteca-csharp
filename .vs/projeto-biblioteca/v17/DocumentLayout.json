@@ -1,25 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\aluno\\projeto-biblioteca-csharp\\",
+  "WorkspaceRootPath": "C:\\ifsp\\estrutura de dados\\edd2\\projeto-biblioteca-cs\\projeto-biblioteca-csharp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{28D5816A-CC6C-47A3-A829-17BD11CFB6DA}|projeto-biblioteca\\projeto-biblioteca.csproj|c:\\users\\aluno\\projeto-biblioteca-csharp\\projeto-biblioteca\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{28D5816A-CC6C-47A3-A829-17BD11CFB6DA}|projeto-biblioteca\\projeto-biblioteca.csproj|c:\\ifsp\\estrutura de dados\\edd2\\projeto-biblioteca-cs\\projeto-biblioteca-csharp\\projeto-biblioteca\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{28D5816A-CC6C-47A3-A829-17BD11CFB6DA}|projeto-biblioteca\\projeto-biblioteca.csproj|solutionrelative:projeto-biblioteca\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28D5816A-CC6C-47A3-A829-17BD11CFB6DA}|projeto-biblioteca\\projeto-biblioteca.csproj|c:\\users\\aluno\\projeto-biblioteca-csharp\\projeto-biblioteca\\livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{28D5816A-CC6C-47A3-A829-17BD11CFB6DA}|projeto-biblioteca\\projeto-biblioteca.csproj|c:\\ifsp\\estrutura de dados\\edd2\\projeto-biblioteca-cs\\projeto-biblioteca-csharp\\projeto-biblioteca\\livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{28D5816A-CC6C-47A3-A829-17BD11CFB6DA}|projeto-biblioteca\\projeto-biblioteca.csproj|solutionrelative:projeto-biblioteca\\livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28D5816A-CC6C-47A3-A829-17BD11CFB6DA}|projeto-biblioteca\\projeto-biblioteca.csproj|c:\\users\\aluno\\projeto-biblioteca-csharp\\projeto-biblioteca\\exemplar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{28D5816A-CC6C-47A3-A829-17BD11CFB6DA}|projeto-biblioteca\\projeto-biblioteca.csproj|c:\\ifsp\\estrutura de dados\\edd2\\projeto-biblioteca-cs\\projeto-biblioteca-csharp\\projeto-biblioteca\\exemplar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{28D5816A-CC6C-47A3-A829-17BD11CFB6DA}|projeto-biblioteca\\projeto-biblioteca.csproj|solutionrelative:projeto-biblioteca\\exemplar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28D5816A-CC6C-47A3-A829-17BD11CFB6DA}|projeto-biblioteca\\projeto-biblioteca.csproj|c:\\users\\aluno\\projeto-biblioteca-csharp\\projeto-biblioteca\\livros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{28D5816A-CC6C-47A3-A829-17BD11CFB6DA}|projeto-biblioteca\\projeto-biblioteca.csproj|c:\\ifsp\\estrutura de dados\\edd2\\projeto-biblioteca-cs\\projeto-biblioteca-csharp\\projeto-biblioteca\\livros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{28D5816A-CC6C-47A3-A829-17BD11CFB6DA}|projeto-biblioteca\\projeto-biblioteca.csproj|solutionrelative:projeto-biblioteca\\livros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28D5816A-CC6C-47A3-A829-17BD11CFB6DA}|projeto-biblioteca\\projeto-biblioteca.csproj|c:\\users\\aluno\\projeto-biblioteca-csharp\\projeto-biblioteca\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{28D5816A-CC6C-47A3-A829-17BD11CFB6DA}|projeto-biblioteca\\projeto-biblioteca.csproj|c:\\ifsp\\estrutura de dados\\edd2\\projeto-biblioteca-cs\\projeto-biblioteca-csharp\\projeto-biblioteca\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{28D5816A-CC6C-47A3-A829-17BD11CFB6DA}|projeto-biblioteca\\projeto-biblioteca.csproj|solutionrelative:projeto-biblioteca\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -36,11 +36,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\aluno\\projeto-biblioteca-csharp\\projeto-biblioteca\\Program.cs",
+              "DocumentMoniker": "C:\\ifsp\\estrutura de dados\\edd2\\projeto-biblioteca-cs\\projeto-biblioteca-csharp\\projeto-biblioteca\\Program.cs",
               "RelativeDocumentMoniker": "projeto-biblioteca\\Program.cs",
-              "ToolTip": "C:\\Users\\aluno\\projeto-biblioteca-csharp\\projeto-biblioteca\\Program.cs",
+              "ToolTip": "C:\\ifsp\\estrutura de dados\\edd2\\projeto-biblioteca-cs\\projeto-biblioteca-csharp\\projeto-biblioteca\\Program.cs",
               "RelativeToolTip": "projeto-biblioteca\\Program.cs",
-              "ViewState": "AgIAAHQAAAAAAAAAAAAIwIMAAABjAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAgwDYAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-30T23:33:08.332Z",
               "IsPinned": true,
@@ -50,9 +50,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Livros.cs",
-              "DocumentMoniker": "C:\\Users\\aluno\\projeto-biblioteca-csharp\\projeto-biblioteca\\Livros.cs",
+              "DocumentMoniker": "C:\\ifsp\\estrutura de dados\\edd2\\projeto-biblioteca-cs\\projeto-biblioteca-csharp\\projeto-biblioteca\\Livros.cs",
               "RelativeDocumentMoniker": "projeto-biblioteca\\Livros.cs",
-              "ToolTip": "C:\\Users\\aluno\\projeto-biblioteca-csharp\\projeto-biblioteca\\Livros.cs",
+              "ToolTip": "C:\\ifsp\\estrutura de dados\\edd2\\projeto-biblioteca-cs\\projeto-biblioteca-csharp\\projeto-biblioteca\\Livros.cs",
               "RelativeToolTip": "projeto-biblioteca\\Livros.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -62,9 +62,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Livro.cs",
-              "DocumentMoniker": "C:\\Users\\aluno\\projeto-biblioteca-csharp\\projeto-biblioteca\\Livro.cs",
+              "DocumentMoniker": "C:\\ifsp\\estrutura de dados\\edd2\\projeto-biblioteca-cs\\projeto-biblioteca-csharp\\projeto-biblioteca\\Livro.cs",
               "RelativeDocumentMoniker": "projeto-biblioteca\\Livro.cs",
-              "ToolTip": "C:\\Users\\aluno\\projeto-biblioteca-csharp\\projeto-biblioteca\\Livro.cs",
+              "ToolTip": "C:\\ifsp\\estrutura de dados\\edd2\\projeto-biblioteca-cs\\projeto-biblioteca-csharp\\projeto-biblioteca\\Livro.cs",
               "RelativeToolTip": "projeto-biblioteca\\Livro.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAmwCMAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -74,9 +74,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Exemplar.cs",
-              "DocumentMoniker": "C:\\Users\\aluno\\projeto-biblioteca-csharp\\projeto-biblioteca\\Exemplar.cs",
+              "DocumentMoniker": "C:\\ifsp\\estrutura de dados\\edd2\\projeto-biblioteca-cs\\projeto-biblioteca-csharp\\projeto-biblioteca\\Exemplar.cs",
               "RelativeDocumentMoniker": "projeto-biblioteca\\Exemplar.cs",
-              "ToolTip": "C:\\Users\\aluno\\projeto-biblioteca-csharp\\projeto-biblioteca\\Exemplar.cs",
+              "ToolTip": "C:\\ifsp\\estrutura de dados\\edd2\\projeto-biblioteca-cs\\projeto-biblioteca-csharp\\projeto-biblioteca\\Exemplar.cs",
               "RelativeToolTip": "projeto-biblioteca\\Exemplar.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAxwBkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -86,9 +86,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Utils.cs",
-              "DocumentMoniker": "C:\\Users\\aluno\\projeto-biblioteca-csharp\\projeto-biblioteca\\Utils.cs",
+              "DocumentMoniker": "C:\\ifsp\\estrutura de dados\\edd2\\projeto-biblioteca-cs\\projeto-biblioteca-csharp\\projeto-biblioteca\\Utils.cs",
               "RelativeDocumentMoniker": "projeto-biblioteca\\Utils.cs",
-              "ToolTip": "C:\\Users\\aluno\\projeto-biblioteca-csharp\\projeto-biblioteca\\Utils.cs",
+              "ToolTip": "C:\\ifsp\\estrutura de dados\\edd2\\projeto-biblioteca-cs\\projeto-biblioteca-csharp\\projeto-biblioteca\\Utils.cs",
               "RelativeToolTip": "projeto-biblioteca\\Utils.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

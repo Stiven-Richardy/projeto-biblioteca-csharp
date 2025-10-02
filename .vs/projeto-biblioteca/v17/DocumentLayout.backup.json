@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "projeto-biblioteca\\Program.cs",
               "ToolTip": "C:\\Users\\aluno\\projeto-biblioteca-csharp\\projeto-biblioteca\\Program.cs",
               "RelativeToolTip": "projeto-biblioteca\\Program.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAowG4AAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAIwIMAAABjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-30T23:33:08.332Z",
               "IsPinned": true,
@@ -56,8 +56,7 @@
               "RelativeToolTip": "projeto-biblioteca\\Livros.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T23:35:59.933Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-30T23:35:59.933Z"
             },
             {
               "$type": "Document",
@@ -69,8 +68,7 @@
               "RelativeToolTip": "projeto-biblioteca\\Livro.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAmwCMAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T23:37:15.185Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-30T23:37:15.185Z"
             },
             {
               "$type": "Document",
@@ -82,8 +80,7 @@
               "RelativeToolTip": "projeto-biblioteca\\Exemplar.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAxwBkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T23:37:24.829Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-30T23:37:24.829Z"
             },
             {
               "$type": "Document",
