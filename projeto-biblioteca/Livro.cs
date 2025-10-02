@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.Immutable;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -32,6 +33,7 @@ namespace projeto_biblioteca
 
         public void adicionarExemplar(Exemplar exemplar)
         {
+
             Exemplar pesquisaExemplar = exemplares.Find(e => e.Tombo == exemplar.Tombo);
             if (pesquisaExemplar == null) 
             {
@@ -42,26 +44,30 @@ namespace projeto_biblioteca
             {
                 Utils.MensagemErro($"Exemplar já existe! Tombo nº{exemplar.Tombo}");
             }
+
         }
 
         public int qtdeExemplares()
         {
-            return 0;
+            return exemplares.Count();
         }
 
         public int qtdeDisponiveis()
         {
-            return 0;
+            return exemplares.Count(exemplar => exemplar.disponivel() == true);
         }
 
         public int qtdeEmprestimos()
         {
-            return 0;
+            int qtde = 0;
+            foreach(Exemplar e in exemplares)
+                qtde += e.qtdeEmprestimos();
+            return qtde;
         }
 
         public double percDisponibilidade()
         {
-            return 0;
+            return (qtdeDisponiveis()/qtdeExemplares()) * 100;
         }
     }
 }
