@@ -21,22 +21,44 @@ namespace projeto_biblioteca
 
         public bool emprestar()
         {
-            return true;
+            bool podeEmprestar = this.disponivel();
+            if (podeEmprestar)
+            {
+                Emprestimo emprestimo = new Emprestimo(DateTime.Now);
+                Emprestimos.Add(emprestimo);
+            }
+            return podeEmprestar;
         }
 
         public bool devolver()
         {
-            return true;
+            bool devolveu = false;
+            Emprestimo emprestimo = Emprestimos.Find(e => e.DtDevolucao == null);
+            if (emprestimo != null)
+            {
+                emprestimo.DtDevolucao = DateTime.Now;
+                devolveu = true;
+            }
+            return devolveu;
         }
 
         public bool disponivel()
         {
-            return true;
+            bool ehDisponivel = false;
+            foreach (Emprestimo emprestimo in emprestimos) 
+            {
+                ehDisponivel = emprestimo.DtEmprestimo == null || emprestimo.DtDevolucao != null;
+                if (ehDisponivel) 
+                {
+                    break;
+                }
+            }
+            return ehDisponivel;
         }
 
         public int qtdeEmprestimos()
         {
-            return 0;
+            return Emprestimos.Count();
         }
     }
 }

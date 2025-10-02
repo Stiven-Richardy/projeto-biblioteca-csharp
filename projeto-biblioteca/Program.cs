@@ -60,10 +60,10 @@ namespace projeto_biblioteca
                         adicionarExemplar();
                         break;
                     case 5:
-                        // registrarEmprestimo();
+                        registrarEmprestimo();
                         break;
                     case 6:
-                        // registrarDevolucao();
+                        registrarDevolucao();
                         break;
                     default:
                         Utils.MensagemErro("Digite um número de 0-5!");
@@ -159,6 +159,61 @@ namespace projeto_biblioteca
             }
             else
                 Utils.MensagemErro("Livro não encontrado.");
+        }
+
+        static void registrarEmprestimo()
+        {
+            Utils.Titulo("EMPRESTAR EXEMPLAR");
+            Console.Write("Informe o título: ");
+            string titulo = Console.ReadLine();
+            Livro livroPesquisado = acervo.Acervo.Find(l => l.Titulo == titulo);
+            Exemplar exempDisponivel = livroPesquisado.Exemplares.Find(e => e.disponivel());
+            bool emprestou;
+            if (exempDisponivel != null)
+            {
+                emprestou = exempDisponivel.emprestar();
+                if (emprestou)
+                {
+                    Utils.MensagemSucesso($"Livro emprestado. Data do emprestimo: {DateTime.Now}");
+                }
+                else
+                {
+                    Utils.MensagemErro("Não foi possível emprestar o livro");
+                }
+            }
+            else 
+                Utils.MensagemErro("Nenhum exemplar disponível");
+        }
+
+        static void registrarDevolucao()
+        {
+            Utils.Titulo("DEVOLVER EXEMPLAR");
+            Console.Write("Informe o titulo do livro:");
+            string titulo = Console.ReadLine();
+            Livro livroPesquisado = acervo.Acervo.Find(l => l.Titulo == titulo);
+            if (livroPesquisado != null)
+            {
+                Console.Write("Informe o tombo do exemplar:");
+                int tombo = Utils.lerInt(Console.ReadLine(), 0, "Tombo inválido. Tente novamente.");
+                Exemplar exmp = livroPesquisado.Exemplares.Find(e => e.Tombo == tombo);
+                bool devolveu;
+                if (exmp != null)
+                {
+                    devolveu = exmp.devolver();
+                    if (devolveu)
+                    {
+                        Utils.MensagemSucesso($"Livro devolvido em {DateTime.Now}");
+                    }
+                }
+                else
+                {
+                    Utils.MensagemErro("Emprestimo não consta na base de dados");
+                }
+                
+            }
+            else
+                Utils.MensagemErro("Livro não encontrado");
+
         }
     }
     
