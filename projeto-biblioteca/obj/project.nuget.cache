@@ -1,18 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Dw7EB1SyXmQ=",
+  "dgSpecHash": "uJxWc41MsXY=",
   "success": true,
-  "projectFilePath": "C:\\ifsp\\estrutura de dados\\edd2\\projeto-biblioteca-cs\\projeto-biblioteca-csharp\\projeto-biblioteca\\projeto-biblioteca.csproj",
+  "projectFilePath": "C:\\Users\\aluno\\Downloads\\projeto-biblioteca-csharp\\projeto-biblioteca\\projeto-biblioteca.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "message": "Problema ao ler o arquivo de cache C:\\ifsp\\estrutura de dados\\edd2\\projeto-biblioteca-cs\\projeto-biblioteca-csharp\\projeto-biblioteca\\obj\\project.nuget.cache: '<' is an invalid start of a property name. Expected a '\"'. Path: $ | LineNumber: 2 | BytePositionInLine: 0.",
-      "projectPath": "C:\\ifsp\\estrutura de dados\\edd2\\projeto-biblioteca-cs\\projeto-biblioteca-csharp\\projeto-biblioteca\\projeto-biblioteca.csproj",
-      "warningLevel": 1,
-      "filePath": "C:\\ifsp\\estrutura de dados\\edd2\\projeto-biblioteca-cs\\projeto-biblioteca-csharp\\projeto-biblioteca\\projeto-biblioteca.csproj",
-      "targetGraphs": []
-    }
-  ]
+  "logs": []
 }
