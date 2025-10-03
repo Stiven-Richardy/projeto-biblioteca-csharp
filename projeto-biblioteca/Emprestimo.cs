@@ -8,11 +8,11 @@ namespace projeto_biblioteca
 {
     internal class Emprestimo
     {
-        private DateTime dtEmprestimo;
-        private DateTime dtDevolucao;
+        private DateTime? dtEmprestimo;
+        private DateTime? dtDevolucao;
 
-        public DateTime DtEmprestimo { get => dtEmprestimo; set => dtEmprestimo = value; }
-        public DateTime DtDevolucao { get => dtDevolucao; set => dtDevolucao = value; }
+        public DateTime? DtEmprestimo { get => dtEmprestimo; set => dtEmprestimo = value; }
+        public DateTime? DtDevolucao { get => dtDevolucao; set => dtDevolucao = value; }
 
         public Emprestimo(DateTime dtEmprestimo)
         {

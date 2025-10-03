@@ -28,3 +28,18 @@ C:\Users\aluno\projeto-biblioteca-csharp\projeto-biblioteca\obj\Debug\net8.0\ref
 C:\Users\aluno\projeto-biblioteca-csharp\projeto-biblioteca\obj\Debug\net8.0\projeto-biblioteca.pdb
 C:\Users\aluno\projeto-biblioteca-csharp\projeto-biblioteca\obj\Debug\net8.0\projeto-biblioteca.genruntimeconfig.cache
 C:\Users\aluno\projeto-biblioteca-csharp\projeto-biblioteca\obj\Debug\net8.0\ref\projeto-biblioteca.dll
+C:\ifsp\estrutura de dados\edd2\projeto-biblioteca-cs\projeto-biblioteca-csharp\projeto-biblioteca\obj\Debug\net8.0\projeto-biblioteca.GeneratedMSBuildEditorConfig.editorconfig
+C:\ifsp\estrutura de dados\edd2\projeto-biblioteca-cs\projeto-biblioteca-csharp\projeto-biblioteca\obj\Debug\net8.0\projeto-biblioteca.AssemblyInfoInputs.cache
+C:\ifsp\estrutura de dados\edd2\projeto-biblioteca-cs\projeto-biblioteca-csharp\projeto-biblioteca\obj\Debug\net8.0\projeto-biblioteca.AssemblyInfo.cs
+C:\ifsp\estrutura de dados\edd2\projeto-biblioteca-cs\projeto-biblioteca-csharp\projeto-biblioteca\obj\Debug\net8.0\projeto-biblioteca.csproj.CoreCompileInputs.cache
+C:\ifsp\estrutura de dados\edd2\projeto-biblioteca-cs\projeto-biblioteca-csharp\projeto-biblioteca\obj\Debug\net8.0\projeto-biblioteca.sourcelink.json
+C:\ifsp\estrutura de dados\edd2\projeto-biblioteca-cs\projeto-biblioteca-csharp\projeto-biblioteca\obj\Debug\net8.0\projeto-biblioteca.dll
+C:\ifsp\estrutura de dados\edd2\projeto-biblioteca-cs\projeto-biblioteca-csharp\projeto-biblioteca\obj\Debug\net8.0\refint\projeto-biblioteca.dll
+C:\ifsp\estrutura de dados\edd2\projeto-biblioteca-cs\projeto-biblioteca-csharp\projeto-biblioteca\obj\Debug\net8.0\projeto-biblioteca.pdb
+C:\ifsp\estrutura de dados\edd2\projeto-biblioteca-cs\projeto-biblioteca-csharp\projeto-biblioteca\bin\Debug\net8.0\projeto-biblioteca.exe
+C:\ifsp\estrutura de dados\edd2\projeto-biblioteca-cs\projeto-biblioteca-csharp\projeto-biblioteca\bin\Debug\net8.0\projeto-biblioteca.deps.json
+C:\ifsp\estrutura de dados\edd2\projeto-biblioteca-cs\projeto-biblioteca-csharp\projeto-biblioteca\bin\Debug\net8.0\projeto-biblioteca.runtimeconfig.json
+C:\ifsp\estrutura de dados\edd2\projeto-biblioteca-cs\projeto-biblioteca-csharp\projeto-biblioteca\bin\Debug\net8.0\projeto-biblioteca.dll
+C:\ifsp\estrutura de dados\edd2\projeto-biblioteca-cs\projeto-biblioteca-csharp\projeto-biblioteca\bin\Debug\net8.0\projeto-biblioteca.pdb
+C:\ifsp\estrutura de dados\edd2\projeto-biblioteca-cs\projeto-biblioteca-csharp\projeto-biblioteca\obj\Debug\net8.0\projeto-biblioteca.genruntimeconfig.cache
+C:\ifsp\estrutura de dados\edd2\projeto-biblioteca-cs\projeto-biblioteca-csharp\projeto-biblioteca\obj\Debug\net8.0\ref\projeto-biblioteca.dll
