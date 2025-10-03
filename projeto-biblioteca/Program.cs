@@ -146,8 +146,8 @@ namespace projeto_biblioteca
                                 if (emp.DtDevolucao != null)
                                     Console.WriteLine($" - Devolvido em {emp.DtDevolucao}");
                             }
-                            Console.WriteLine("\n");
                         }
+                        Console.Write("\n");
                     }
                 }
                 Utils.MensagemSucesso("Livro encontrado.");

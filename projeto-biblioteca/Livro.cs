@@ -65,10 +65,13 @@ namespace projeto_biblioteca
         public double percDisponibilidade()
         {
             int totalExemplares = qtdeExemplares();
+            double percent = 0;
             if (totalExemplares == 0)
-                return 0;
-            return ((double)qtdeDisponiveis() / totalExemplares) * 100;
+                percent = 0;
+            else
+                percent = Convert.ToDouble(qtdeDisponiveis())/totalExemplares * 100;
+
+            return percent;
         }
-    }
     }
 }
