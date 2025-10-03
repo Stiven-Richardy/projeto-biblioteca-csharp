@@ -38,13 +38,10 @@ namespace projeto_biblioteca
             if (pesquisaExemplar == null) 
             {
                 exemplares.Add(exemplar);
-                Utils.MensagemSucesso(" Exemplar adicionado com sucesso! ");
+                Utils.MensagemSucesso("Exemplar adicionado com sucesso!");
             }
             else
-            {
                 Utils.MensagemErro($"Exemplar já existe! Tombo nº{exemplar.Tombo}");
-            }
-
         }
 
         public int qtdeExemplares()
@@ -67,7 +64,11 @@ namespace projeto_biblioteca
 
         public double percDisponibilidade()
         {
-            return (qtdeDisponiveis()/qtdeExemplares()) * 100;
+            int totalExemplares = qtdeExemplares();
+            if (totalExemplares == 0)
+                return 0;
+            return ((double)qtdeDisponiveis() / totalExemplares) * 100;
         }
+    }
     }
 }

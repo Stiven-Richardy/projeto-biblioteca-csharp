@@ -44,16 +44,8 @@ namespace projeto_biblioteca
 
         public bool disponivel()
         {
-            bool ehDisponivel = false;
-            foreach (Emprestimo emprestimo in emprestimos) 
-            {
-                ehDisponivel = emprestimo.DtEmprestimo == null || emprestimo.DtDevolucao != null;
-                if (ehDisponivel) 
-                {
-                    break;
-                }
-            }
-            return ehDisponivel;
+            Emprestimo emprestimoAtivo = this.Emprestimos.Find(e => e.DtDevolucao == null);
+            return emprestimoAtivo == null;
         }
 
         public int qtdeEmprestimos()
